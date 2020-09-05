@@ -1,19 +1,26 @@
 package com.company;
 
 public class Calculator {
+
     public int add(int a, int b) {
-        return -1;
+        return a+b;
     }
+
 
     public int minus(int a, int b) {
-        return 0;
+        return a-b;
     }
 
+
     public long multiply(int a, int b) {
-        return 0;
+        long multiplied = (long) a*b;
+        return multiplied;
     }
 
     public double division(int a, int b) {
-        return 0;
+        double divided = (double) a/b;
+        return divided;
     }
+
 }
+
