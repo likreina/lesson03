@@ -1,6 +1,8 @@
 package com.company;
 
+import com.company.game.Game;
 import com.company.util.Checker;
+
 import java.util.Scanner;
 
 
@@ -34,8 +36,7 @@ public class Main {
         System.out.println("Is it true that the first typed number is odd? ");
         System.out.println(isOdd);
 
-
-
+Game.game();
     }
 
 }
